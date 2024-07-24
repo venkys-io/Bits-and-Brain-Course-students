@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color:lightgreen;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: blueviolet;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background-color: blanchedalmond;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: lightskyblue;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>MY LOVE TOWARDS MOON</h2>
+<p>"If one day the moon calls you by your name don't be surprised, because every night I tell her about you.".</p>
+<p>"Love is a gift of one's inner most soul to another so both can be whole</p>
+
+<header>
+  <h2> MINE.</h2>
+</header>
+
+<section>
+
+  
+  <article>
+    <h1>love by the moon</h1>
+    <p>Love as the Moon loves;
+        It does not steal the night,
+        It only unveils the beauty of the dark.</p>
+    <p>The moon does not fight. It attacks no one. It does not worry. It does not try to crush others. It keeps to its course, but by its very nature, it gently influences.</p>
+  </article>
+</section>
+</body>
+</html>
+
