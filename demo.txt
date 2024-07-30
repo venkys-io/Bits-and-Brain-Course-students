@@ -1,0 +1,124 @@
+// This is my first C Program
+#include <stdio.h>
+
+void myfun()
+{
+    int c = 10 + 12;
+    printf("The value of c is %d\n", c);
+    printf("This is my C function\n");
+}
+
+int main()
+{
+    printf("Hello, Welcome to the world of Venkys.io experiential C learning\n");
+    myfun();
+    return 0;
+}
+
+public class Main {
+    public static void main(String[] args) {
+        for(int i = 0; i < 20; i = i + 1)
+        System.out.println("ADITHYA E");
+    
+
+int i = 0;
+        do {
+            System.out.println("adithya");
+            i = i + 1;
+            // i=2 inrement / decrement
+        } while (i < 10);
+      }
+    }
+
+
+// for ( let i=0;i<10;i++){
+//     console.log("hello")
+// }
+// let i=0
+// do{
+//     console.log("adithya");
+//     i=i+1
+// }while(i<10);
+
+// let x=0
+// while(x<10){
+//     console.log("venkys.io");
+//    x=x+1
+// }
+
+
+
+// let x=10
+// do{
+//     console.log(x);
+//     x=x-1
+// }while(x>0);
+
+// let x=10
+// while(x>0){
+//     console.log(x)
+//     x=x-1
+// }
+
+
+// let n = 5;
+// for (let i = 1; i <= n; i++) {
+//     let str = "= ";
+//     console.log(str.repeat(i));
+// } 
+
+// let n = 10;
+// for (let i = 1;i<=n;i++){
+//     let str = "hlo"+"   ";
+//     console.log(str.repeat(i));
+// }
+
+// let n = 5;
+// for (let i = 1; i <= n; i++) {
+//     let str = "* ";
+//     let space  = '  ';
+//     console.log(space.repeat((n-i))+str.repeat(i));
+// }
+
+// let n=5;
+// for (let i=1; i<=n; i++){
+// let str= "* ";
+// let space=' ';
+// console.log(space.repeat((n-i))+str.repeat(i));
+// }
+
+// let n = 5;
+// for (let i = 1; i <= n; i++) {
+//     let str = "* ";
+//     console.log(str.repeat(i));
+// }
+
+// let n = 5;
+// for (let i = 1; i <= n; i++) {
+//     let str = "* ";
+//     let space  = '  ';
+//     console.log(space.repeat((n-i))+str.repeat(i));
+// }
+
+// let n = 5;
+// for (let i = n; i >= 1; i--) {
+//     let str = "* ";
+//     let space  = '  ';
+//     console.log(space.repeat(n-i)+str.repeat(i));
+// }
+
+// let n = 5;
+// for (let i = n; i >= 1; i--) {
+//     let str = "* ";
+//     console.log(str.repeat(i));
+// }
+
+
+
+for (let i = 1; i <= 10; i++) {
+    let stars = "";
+    for (let j = 1; j <= i; j++) {
+      stars += "*"+" ";
+    }
+    console.log(stars);
+  }
