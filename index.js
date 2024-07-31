@@ -31,16 +31,17 @@
 //    console.log()
 
 // }
-   //dowhile
- let x=10
- do{
-     console.log(x);
-     x=x-1
-  }while(x>0);
+//    //dowhile
+//  let x=10
+//  do{
+//      console.log(x);
+//      x=x-1
+//   }while(x>0);
  
- //while
-  let i=10
-  while(i>0){
-     console.log(i)
-      i=i-1
-  }
+//  //while
+//   let i=10
+//   while(i>0){
+//      console.log(i)
+//       i=i-1
+//   }
+
