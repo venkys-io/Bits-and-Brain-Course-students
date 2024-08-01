@@ -44,4 +44,12 @@
 //      console.log(i)
 //       i=i-1
 //   }
-
+var s ="";
+for (let i = 0; i < 4; i++) {
+    let count = 1; // Initialize count outside of the inner loop
+    for (let j = 0; j <= i; j++) {
+        s+=count+" "
+        console.log(s);
+    }
+     // Move to the next line after each row is complete
+}
