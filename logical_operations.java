@@ -1,8 +1,8 @@
 public class logical_operations {
     public static void main(String[] args) {
 
-        boolean a =true;
-        boolean b =false;
+        // boolean a =true;
+        // boolean b =false;
 
         int age=27;
         boolean hasDrivingLicense=true;
@@ -13,5 +13,7 @@ public class logical_operations {
         System.out.println(passedExam);
         
        
+
+    }
 }
-}
+
