@@ -41,4 +41,4 @@ public class Calculator {
 //The Scanner class is used to get user input, and it is found in the java.util package.
 
 //To use the Scanner class, create an object of the class and use any of the available methods found in the Scanner class documentation.
-// In our example, we will use the nextInt() method, which is used to read integers:
+// In our example, we have used the nextInt() method, which is used to read integers
