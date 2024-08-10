@@ -1,6 +1,7 @@
 
     //The Scanner class is used to get user input, and it is found in the java.util package.
 import java.util.Scanner;
+
 //To use the Scanner class,we are creating class and we are using new int method found in the Scanner class documentation. 
 public class evenOrOdd {
 
