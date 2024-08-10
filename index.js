@@ -32,7 +32,7 @@
 
 // }
 //    //dowhile
-//  let x=10
+//  letdv x=10
 //  do{
 //      console.log(x);
 //      x=x-1
