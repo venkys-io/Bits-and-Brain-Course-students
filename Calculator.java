@@ -1,5 +1,6 @@
 
 import java.util.Scanner;
+// The scanner class is used to get user input, and it is found in the java.util package.
 
 public class Calculator {
     public static void main(String[] args) {
@@ -10,7 +11,7 @@ public class Calculator {
         int b = sc.nextInt();
         System.out.print("Enter a operator (+,-,*,/):");
         String operator = sc.next();
-
+// we are using double variable such that it executes required output in decimals.
         double result = 0.0;
 
         switch (operator) {
@@ -38,7 +39,4 @@ public class Calculator {
         System.out.println("The result is: " + result);
     }
 }
-//The Scanner class is used to get user input, and it is found in the java.util package.
-
-//To use the Scanner class, create an object of the class and use any of the available methods found in the Scanner class documentation.
-// In our example, we have used the nextInt() method, which is used to read integers
+// we have to enter the values of a and b after compiling the file in respective terminal.
